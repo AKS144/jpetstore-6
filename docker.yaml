@@ -19,8 +19,8 @@
       community.docker.docker_login:
         registry_url: https://index.docker.io/v1/
         username: abhi144k
-        password: dckr_pat_lY-SEexxUdgxOjx9it2TpibjNuY
-
+        password: 
+        
     - name: Push image
       command: docker push abhi144k/petstore:latest
 
